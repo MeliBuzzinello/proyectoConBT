@@ -1,0 +1,111 @@
+*{
+    color: #626161;
+    font-family: monospace;
+}
+
+/* -------- HEADER Y FOOTER ---------*/ 
+header {
+    background-color: white;
+    /* position: sticky; */
+    top: 0;
+    font-size: 25px;
+}
+    
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.footer-legales {
+    text-align: center;
+    background-color:#5AF8B5 ;
+    margin: 0;
+    padding: 13px;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: #EEEDE7;
+}
+
+.redes_tamaño {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+
+.titulo_redes-ubicacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* ---------- INDEX ---------*/ 
+
+.index-cuadro_texto {
+    font-size: 40px;
+    padding: 50px 20px;
+
+}
+
+.index-cuadro {
+    margin: 100px 50px;
+}
+
+.index-color1 {
+    background-color: #5AF8B5;
+    text-align: center;
+}
+
+.index-color2 {
+    background-color:#FF6F95;
+    text-align: center;
+}
+
+.index-color3 {
+    background-color: #FFF952;
+    text-align: center;
+}
+
+.index__cuadro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.nosotros_parrafo {
+    text-align: center;
+    line-height: 30px;
+    margin: 100px 300px 50px 300px;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.logo { margin: 15px;}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px)  {
+.logo_mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes_ubicacion {
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros_parrafo {
+    margin: 50px 50px 50px 50px;
+}
+
+
+}

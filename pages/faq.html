@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
+
 <body>
     <header>
         <div class="container-fluid">
@@ -45,7 +47,81 @@
                 </div>
             </div>
     </header>
-    
+    <main>
+        <div class="col-lg-12 col-12">
+            <section class="faq_parallax">
+                <h1 class="main-titulo">Preguntas Frecuentes</h1>
+            </section>
+        </div>
+        <div class="row accordion" id="accordionExample">
+            <div class="col-lg-12 col-12 card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Pregunta numero 1
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        respuesta numero 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem fuga
+                        officia facilis repellendus laudantium, quisquam quod atque ipsa reprehenderit facere dicta,
+                        minus cumque deleniti adipisci repudiandae eveniet laborum blanditiis. <code>.show</code> class.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-12 card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Pregunta numero 2
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        RESPUESTA 2 Some placeholder content for the second accordion panel. This panel is hidden by default.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-12 card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Pregunta numero 3
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        RESPUESTA N 3 And lastly, the placeholder content for the third and final accordion panel. This panel is
+                        hidden by default.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-12 card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Pregunsta numero 4
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        RESPUESTA NUMERO 4 And lastly, the placeholder content for the third and final accordion panel. This panel is
+                        hidden by default.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="row">
             <div class="col-lg-6 col-xs-12 footer__redes--flex">
@@ -79,4 +155,5 @@
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

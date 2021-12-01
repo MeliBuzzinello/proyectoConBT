@@ -86,18 +86,6 @@ footer {
     justify-content: flex-start;
 }
 
-
-
-@media (min-width: 992px) {
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-    padding: 30px;
-}
-
-.logo { margin: 15px;}
-
-}
-
 /*------------ NOSOTROS ------------*/
 .nosotros_mobile {
     display: flex;
@@ -114,14 +102,100 @@ footer {
     color: #EEEDE7;
     font-size: 40px;
     background: #626161;
-    width: 400px;
     font-family: monospace;
-    margin-top: 0;
-    padding-left: 35px;
-}
+   
+ }
 
 .img_nosotros {
     width: 100%;
+}
+
+.nosotros_parallax {
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/img/nosotros.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+/* ---------- SERVICIOS ---------*/
+section {
+    width: 100%;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+}
+.servicios_parallax {
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/img/imagenServicios.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+/*------------FAQ-----------*/
+.faq_parallax {
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../assets/img/imagenFaq.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*---------- CONTACTO---------*/
+.parallax {
+    background-image: url(../assets/img/parallax-form.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px; 
+    padding-top: 0;
+}
+
+.contenedor__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor {
+    width: 412px;
+    background-color: white;
+    font-size: 22px;
+    line-height: 25px;
+    border-style: double;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: rgba(252, 250, 250, 0.89);
+    margin-top: 50px;
+    align-self: center;
+}
+
+.form-texto {
+    display: block;
+}
+
+.boton {
+    font-size: 110%;
+    color:#626161;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    background-color:#FFF952;
+    margin-top: 10px;
 }
 
 /* -----------MEDIAS----------*/
@@ -148,3 +222,14 @@ footer {
 
 
 }
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+        padding: 30px;
+    }
+    
+    .logo { margin: 15px;}
+    
+    }

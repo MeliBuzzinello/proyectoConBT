@@ -198,6 +198,15 @@ section {
     margin-top: 10px;
 }
 
+.mapa {
+    height: 100%;
+}
+
+.contacto__info {
+    padding-left: 50px;
+
+}
+
 /* -----------MEDIAS----------*/
 
 @media only screen and (min-width: 0px) and (max-width: 768px)  {

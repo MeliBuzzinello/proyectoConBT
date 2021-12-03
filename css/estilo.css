@@ -118,9 +118,9 @@ footer {
    
  }
 
-.img_nosotros {
+/* .img_nosotros {
     width: 100%;
-}
+} */
 
 .nosotros_parallax {
     background-color: white;
@@ -237,11 +237,6 @@ section {
     margin: 50px 50px 50px 50px;
 }
 
-.img_nosotros {
-    display: none;
-}
-
-
 }
 
 
@@ -254,3 +249,23 @@ section {
     .logo { margin: 15px;}
     
     }
+
+
+/* ----------- ANIMACIONES Y TRANSICIONES -------------*/
+
+.transicion:hover {
+    color: white;
+    transition: all 1s;
+}
+
+.transicion_nosotros {
+    width: 80%;
+    transition: all 300ms;
+}
+
+.transicion_nosotros:hover {
+    width: 90%;
+}
+
+
+

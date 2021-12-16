@@ -1,0 +1,25 @@
+@import "branding";
+
+.footer-legales {
+    text-align: center;
+    background-color: map-get($paleta, color3) ;
+    margin: 0;
+    padding: 13px;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: #EEEDE7;
+}
+
+.redes_tamaño {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+
+.titulo_redes-ubicacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

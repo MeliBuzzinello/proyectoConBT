@@ -1,0 +1,41 @@
+@import "branding";
+
+.nosotros_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosotros_mobile p {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.main-titulo {
+    color: map-get($paleta, colorTitulo);
+    font-size: 40px;
+    background: #626161;
+    font-family: monospace;
+    padding-left: 20px;
+}
+
+.nosotros_parallax {
+    @extend .parallax;
+    background-image: url(../assets/img/nosotros.png) ;
+}
+
+ /* ----------- ANIMACIONES Y TRANSICIONES -------------*/
+
+ .transicion:hover {
+    color: white;
+    transition: all 1s;
+}
+
+.transicion_nosotros {
+    width: 80%;
+    transition: all 300ms;
+}
+
+.transicion_nosotros:hover {
+    width: 90%;
+}

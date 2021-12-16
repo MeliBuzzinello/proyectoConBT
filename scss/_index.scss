@@ -1,0 +1,54 @@
+@import "branding";
+
+.index-cuadro_texto {
+    font-size: 40px;
+    padding: 50px 20px;
+
+}
+
+.index-cuadro {
+    margin: 100px 50px;
+}
+
+.index-color1 {
+    background-color: map-get($paleta, color3);
+    text-align: center;
+}
+
+.index-color2 {
+    background-color:map-get($paleta, color2);
+    text-align: center;
+}
+
+.index-color3 {
+    background-color: map-get($paleta, color1);
+    text-align: center;
+}
+
+.index__cuadro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.nosotros_parrafo {
+    text-align: center;
+    line-height: 30px;
+    padding: 50px 150px;
+}
+
+.titulo_carousel {
+    font-size: 60px;
+    background-color: map-get($paleta, colorTitulo);
+
+}
+
+.subtitulo_carousel {
+    font-size: 40px;
+    background-color: map-get($paleta, colorTitulo);
+ }
+
+ .indexClientes {
+    margin: 50px 0;
+
+ }

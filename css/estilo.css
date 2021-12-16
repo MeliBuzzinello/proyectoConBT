@@ -3,17 +3,6 @@
   color: #626161;
   font-family: monospace; }
 
-/* -------- HEADER Y FOOTER ---------*/
-header {
-  background-color: white;
-  /* position: sticky; */
-  top: 0;
-  font-size: 20px; }
-
-.logo {
-  width: 80px;
-  height: 80px; }
-
 .footer-legales {
   text-align: center;
   background-color: #5AF8B5;

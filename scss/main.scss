@@ -1,9 +1,11 @@
+@import "nav";
+@import "footer";
+
 *{
     color: #626161;
     font-family: monospace;
 }
 
-/* -------- HEADER Y FOOTER ---------*/ 
 header {
     background-color: white;
     /* position: sticky; */
@@ -40,7 +42,6 @@ footer {
     justify-content: center;
     margin-top: 15px;
 }
-
 /* ---------- INDEX ---------*/ 
 
 .index-cuadro_texto {

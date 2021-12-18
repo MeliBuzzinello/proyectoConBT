@@ -1,15 +1,21 @@
 @import "branding";
 
-.footer-legales {
-    text-align: center;
-    background-color: map-get($paleta, color3) ;
-    margin: 0;
-    padding: 13px;
-}
 
 footer {
     padding-top: 15px;
     background-color: #EEEDE7;
+    h5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    h6 {
+        text-align: center;
+        background-color: map-get($paleta, color3) ;
+        margin: 0;
+        padding: 13px;
+    }
+
 }
 
 .redes_tamaño {
@@ -18,8 +24,3 @@ footer {
     margin: 15px;
 }
 
-.titulo_redes-ubicacion {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}

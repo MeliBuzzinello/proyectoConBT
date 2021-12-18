@@ -1,34 +1,23 @@
 @import "branding";
 
-.index-cuadro_texto {
-    font-size: 40px;
-    padding: 50px 20px;
-
-}
-
-.index-cuadro {
-    margin: 100px 50px;
-}
-
-.index-color1 {
-    background-color: map-get($paleta, color3);
-    text-align: center;
-}
-
-.index-color2 {
-    background-color:map-get($paleta, color2);
-    text-align: center;
-}
-
-.index-color3 {
-    background-color: map-get($paleta, color1);
-    text-align: center;
-}
-
 .index__cuadro {
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
+    .cuadro {
+        font-size: 40px;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .color1 {
+        background-color: map-get($paleta, color1);
+    }
+    .color2 {
+        background-color: map-get($paleta, color2);
+    }
+    .color3 {
+        background-color: map-get($paleta, color3);
+    }
 }
 
 .nosotros_parrafo {
@@ -40,7 +29,6 @@
 .titulo_carousel {
     font-size: 60px;
     background-color: map-get($paleta, colorTitulo);
-
 }
 
 .subtitulo_carousel {
@@ -50,5 +38,22 @@
 
  .indexClientes {
     margin: 50px 0;
-
  }
+
+ .card {
+    box-shadow: 2px 2px 5px #999;
+ }
+
+ .tarjeta {
+    transition: transform 0.3s;
+ }
+
+ .tarjeta:hover {
+    transform: scale(0.5);
+ }
+
+ .transicion:hover {
+    color: white;
+    transition: all 1s;
+}
+

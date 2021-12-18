@@ -12,3 +12,7 @@ section {
     background-image: url(../assets/img/imagenServicios.png) ;
 }
 
+.boton {
+    @include btn;
+}
+

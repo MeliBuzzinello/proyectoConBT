@@ -1,8 +1,10 @@
 
+
 $paleta: (
-    color1: #FFF952,
-    color2: #FF6F95,
-    color3: #5AF8B5,
+    color1: #f3ee6b,
+    color2: #ec6a8d,
+    color3: #46f08d,
+    color4: rgb(4, 109, 109),
     colorTxt: rgba(252, 250, 250, 0.56),
     colorTitulo: #EEEDE7,
     colorSec: #626161,
@@ -18,3 +20,16 @@ $paleta: (
     justify-content: center;
     align-items: center;
 }
+
+@mixin btn {
+    font-size: 110%;
+    color:map-get($paleta, colorSec);
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    background-color: map-get($paleta, color1);
+    margin-top: 10px;
+}
+
+

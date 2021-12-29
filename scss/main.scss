@@ -1,6 +1,9 @@
 *{
     color: #626161;
-    font-family: monospace;
+    margin: 0px;
+    body{
+        overflow-x: hidden;
+    }
 }
 
 @import "nav";
@@ -25,6 +28,17 @@
     display: flex;
     justify-content: center;
 }
+
+.moverFooter {position: relative; top: 122px;}
+
+.nosotros_parrafo {
+    padding: 50px 100px;
+}
+
+.form-texto {
+    width: 320px;
+}
+
 }
 
 @media (min-width: 992px) {

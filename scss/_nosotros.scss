@@ -1,14 +1,20 @@
 @import "branding";
 
-.nosotros_mobile {
+.div__nosotros--grid {
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+.nosotros_empleados {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.nosotros_mobile p {
-    text-align: center;
-    padding: 20px 50px;
+    h2 {
+        padding-top: 24px;
+    }
+    p {
+        text-align: center;
+        padding: 20px 50px;
+    }
 }
 
 .main-titulo {

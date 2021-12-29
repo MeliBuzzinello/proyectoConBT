@@ -1,7 +1,9 @@
 @charset "UTF-8";
 * {
   color: #626161;
-  font-family: monospace; }
+  margin: 0px; }
+  * body {
+    overflow-x: hidden; }
 
 .parallax, .nosotros_parallax, .servicios_parallax, .faq_parallax {
   background-color: white;
@@ -77,8 +79,9 @@ footer {
 
 .nosotros_parrafo {
   text-align: center;
-  line-height: 30px;
-  padding: 50px 150px; }
+  line-height: 50px;
+  padding: 100px 150px 50px 150px;
+  font-size: 25px; }
 
 .titulo_carousel {
   font-size: 60px;
@@ -114,14 +117,19 @@ footer {
   justify-content: center;
   align-items: center; }
 
-.nosotros_mobile {
+.div__nosotros--grid {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.nosotros_empleados {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.nosotros_mobile p {
-  text-align: center;
-  padding: 20px 50px; }
+  .nosotros_empleados h2 {
+    padding-top: 24px; }
+  .nosotros_empleados p {
+    text-align: center;
+    padding: 20px 50px; }
 
 .main-titulo {
   color: #EEEDE7;
@@ -169,8 +177,6 @@ footer {
   background-color: white;
   font-size: 22px;
   line-height: 25px;
-  border-style: double;
-  border-radius: 5px;
   padding: 14px;
   background-color: rgba(252, 250, 250, 0.89);
   margin-top: 50px;
@@ -189,8 +195,19 @@ footer {
   background-color: #f3ee6b;
   margin-top: 10px; }
 
+.boton:hover {
+  font-size: 110%;
+  color: #626161;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 3px 3px 3px 3px;
+  background-color: #f3ee6b;
+  margin-top: 10px;
+  background-color: #ec6a8d; }
+
 .mapa {
-  height: 200%; }
+  height: 200px; }
 
 .contacto__info {
   padding-left: 50px;
@@ -225,8 +242,50 @@ section {
   background-color: #f3ee6b;
   margin-top: 10px; }
 
+.experiencia_titulo {
+  text-align: center;
+  margin: 80px; }
+  .experiencia_titulo h5 {
+    font-size: 20px;
+    color: #ec6a8d; }
+  .experiencia_titulo h3 {
+    font-size: 40px; }
+
+.experiencia_cuerpo {
+  text-align: center;
+  padding: 20px 70px; }
+
+.tabla {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 .faq_parallax {
   background-image: url(../assets/img/imagenFaq.png); }
+
+.card_faq-cuerpo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 60px;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 2px 2px 5px #999; }
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center; }
+
+.faq_titulo {
+  text-align: center;
+  margin: 80px; }
+  .faq_titulo h2 {
+    font-size: 40px; }
+  .faq_titulo h6 {
+    font-size: 20px;
+    color: #ec6a8d; }
+
+.accordion {
+  margin: 50px 5px; }
 
 /* -----------MEDIAS----------*/
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -236,7 +295,14 @@ section {
     margin-top: 10px; }
   .redes_ubicacion {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .moverFooter {
+    position: relative;
+    top: 122px; }
+  .nosotros_parrafo {
+    padding: 50px 100px; }
+  .form-texto {
+    width: 320px; } }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {

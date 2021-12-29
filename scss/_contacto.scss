@@ -19,8 +19,6 @@
     background-color: white;
     font-size: 22px;
     line-height: 25px;
-    border-style: double;
-    border-radius: 5px;
     padding: 14px;
     background-color: rgba(252, 250, 250, 0.89);
     margin-top: 50px;
@@ -34,9 +32,13 @@
 .boton {
     @include btn;
 }
+.boton:hover{
+    @include btn;
+    background-color: map-get($paleta, color2);
+}
 
 .mapa {
-    height: 200%;
+    height: 200px;
 }
 
 .contacto__info {

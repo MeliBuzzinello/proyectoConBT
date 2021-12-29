@@ -4,3 +4,36 @@
     @extend .parallax;
     background-image: url(../assets/img/imagenFaq.png) ;
 }
+
+
+.card_faq-cuerpo { 
+    display: flex; 
+    flex-direction: column;
+    padding: 10px 60px;      
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 2px 2px 5px #999; 
+       
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.faq_titulo {
+    text-align: center;
+    margin: 80px;
+    h2 {
+        font-size: 40px;
+    }
+    h6 {
+        font-size: 20px; 
+       color: map-get($paleta, color2);
+    }
+}
+
+.accordion {
+    margin: 50px 5px;
+}

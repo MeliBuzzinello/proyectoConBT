@@ -16,3 +16,25 @@ section {
     @include btn;
 }
 
+.experiencia_titulo {
+    text-align: center;
+    margin: 80px;
+    h5 {
+       font-size: 20px; 
+       color: map-get($paleta, color2);
+    }
+    h3 {
+        font-size: 40px;
+    }
+}
+
+.experiencia_cuerpo {
+    text-align: center;
+    padding: 20px 70px;
+}
+
+.tabla {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+

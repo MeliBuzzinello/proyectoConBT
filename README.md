@@ -1,4 +1,5 @@
-# proyectoConBT
+# proyecto con Bootstrap sin JavaScript
+
 Index:
 <meta name="description" content="Somos la empresa lider en ayudarte a vender por internet">
     <meta name="keyword" content="paginas web, redes sociales, google ads, posicionamiento,facebook, instagram">
